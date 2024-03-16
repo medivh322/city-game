@@ -49,7 +49,7 @@ const ActiveGame = ({
   useEffect(() => {
     if (!playerRound && citiesUsed) {
       const newResponseDelayValue = Math.floor(
-        Math.random() * (10 - 1 + 1) + 1
+        Math.random() * (121 - 10 + 1) + 10
       );
 
       const lastCityUsed = citiesUsed[citiesUsed.length - 1].toLowerCase();
