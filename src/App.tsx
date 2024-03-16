@@ -1,7 +1,7 @@
 import { useState } from "react";
-import StartPage from "./pages/startPage/startPage";
 import ActiveGame from "./pages/ActiveGame/ActiveGame";
-import EndGame from "./pages/EndGame/endGame";
+import EndGame from "./pages/EndGame/EndGame";
+import StartPage from "./pages/StartPage/StartPage";
 
 export interface IGameSettings {
   playerWin: boolean;
